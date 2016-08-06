@@ -1,0 +1,283 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:general
+LIBS:gl-power
+LIBS:gogogo
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TB6593FNG U101
+U 1 1 579BFE38
+P 5350 2950
+F 0 "U101" H 5360 1560 60  0000 C CNN
+F 1 "TB6593FNG" H 5345 3285 60  0000 C CNN
+F 2 "Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm" H 5350 2950 60  0001 C CNN
+F 3 "" H 5350 2950 60  0000 C CNN
+	1    5350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P102
+U 1 1 579BFEE1
+P 6260 2870
+F 0 "P102" H 6260 3020 50  0000 C CNN
+F 1 "VM" V 6360 2870 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6260 2870 50  0001 C CNN
+F 3 "" H 6260 2870 50  0000 C CNN
+	1    6260 2870
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C101
+U 1 1 579BFF20
+P 4400 2300
+F 0 "C101" H 4425 2400 50  0000 L CNN
+F 1 ".1uf" H 4425 2200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4438 2150 50  0001 C CNN
+F 3 "" H 4400 2300 50  0000 C CNN
+	1    4400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C102
+U 1 1 579BFF60
+P 5900 2300
+F 0 "C102" H 5925 2400 50  0000 L CNN
+F 1 ".1uf" H 5700 2190 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5938 2150 50  0001 C CNN
+F 3 "" H 5900 2300 50  0000 C CNN
+	1    5900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P101
+U 1 1 579C004C
+P 4470 3310
+F 0 "P101" H 4470 3660 50  0000 C CNN
+F 1 "CONTROL" V 4570 3310 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.00mm" H 4470 3310 50  0001 C CNN
+F 3 "" H 4470 3310 50  0000 C CNN
+	1    4470 3310
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P103
+U 1 1 579C00FC
+P 6310 3470
+F 0 "P103" H 6310 3620 50  0000 C CNN
+F 1 "MOT" V 6410 3470 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6310 3470 50  0001 C CNN
+F 3 "" H 6310 3470 50  0000 C CNN
+	1    6310 3470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2730 4890 2730
+Wire Wire Line
+	4400 2730 4400 2450
+Wire Wire Line
+	4670 3560 4890 3560
+Wire Wire Line
+	4790 3560 4790 4220
+Connection ~ 4790 3560
+Wire Wire Line
+	5140 4090 5140 4220
+Connection ~ 5140 4220
+Wire Wire Line
+	5220 4220 5220 4090
+Connection ~ 5220 4220
+Wire Wire Line
+	5310 4220 5310 4090
+Connection ~ 5310 4220
+Wire Wire Line
+	5410 4220 5410 4090
+Connection ~ 5410 4220
+Wire Wire Line
+	5490 4220 5490 4090
+Connection ~ 5490 4220
+Wire Wire Line
+	5570 4220 5570 4090
+Connection ~ 5570 4220
+Wire Wire Line
+	4670 3060 4670 2730
+Connection ~ 4670 2730
+Wire Wire Line
+	4670 3160 4710 3160
+Wire Wire Line
+	4710 3160 4710 2870
+Wire Wire Line
+	4710 2870 4890 2870
+Wire Wire Line
+	4890 2980 4740 2980
+Wire Wire Line
+	4740 2980 4740 3260
+Wire Wire Line
+	4740 3260 4670 3260
+Wire Wire Line
+	4890 3090 4780 3090
+Wire Wire Line
+	4780 3090 4780 3360
+Wire Wire Line
+	4780 3360 4670 3360
+Wire Wire Line
+	4890 3190 4820 3190
+Wire Wire Line
+	4820 3190 4820 3460
+Wire Wire Line
+	4820 3460 4670 3460
+Wire Wire Line
+	5810 2820 6060 2820
+Wire Wire Line
+	5900 2730 5900 3030
+Wire Wire Line
+	5900 2730 5810 2730
+Wire Wire Line
+	5900 3030 5810 3030
+Connection ~ 5900 2820
+Wire Wire Line
+	5810 2930 5900 2930
+Connection ~ 5900 2930
+Wire Wire Line
+	5810 2820 5810 2830
+$Comp
+L GND #PWR01
+U 1 1 579C14CC
+P 6060 3030
+F 0 "#PWR01" H 6060 2780 50  0001 C CNN
+F 1 "GND" H 6060 2880 50  0000 C CNN
+F 2 "" H 6060 3030 50  0000 C CNN
+F 3 "" H 6060 3030 50  0000 C CNN
+	1    6060 3030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6060 2920 6060 3030
+$Comp
+L GND #PWR02
+U 1 1 579C15EA
+P 5690 4390
+F 0 "#PWR02" H 5690 4140 50  0001 C CNN
+F 1 "GND" H 5690 4240 50  0000 C CNN
+F 2 "" H 5690 4390 50  0000 C CNN
+F 3 "" H 5690 4390 50  0000 C CNN
+	1    5690 4390
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5690 4220 5690 4390
+Connection ~ 5690 4220
+Wire Wire Line
+	4790 4220 5690 4220
+Wire Wire Line
+	5810 3190 5880 3190
+Wire Wire Line
+	5880 3190 5880 3420
+Wire Wire Line
+	5880 3420 6110 3420
+Wire Wire Line
+	5810 3290 5880 3290
+Connection ~ 5880 3290
+Wire Wire Line
+	5880 3550 5810 3550
+Wire Wire Line
+	5880 3450 5880 3550
+Wire Wire Line
+	5880 3450 5810 3450
+Wire Wire Line
+	6110 3520 5880 3520
+Connection ~ 5880 3520
+Wire Wire Line
+	6010 2820 6030 2820
+Wire Wire Line
+	6030 2820 6030 2450
+Wire Wire Line
+	5900 2450 6160 2450
+Connection ~ 6010 2820
+$Comp
+L CP C103
+U 1 1 579C1BFF
+P 6160 2300
+F 0 "C103" H 6185 2400 50  0000 L CNN
+F 1 "10uf" H 5890 2390 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering" H 6198 2150 50  0001 C CNN
+F 3 "" H 6160 2300 50  0000 C CNN
+	1    6160 2300
+	-1   0    0    1   
+$EndComp
+Connection ~ 6030 2450
+Wire Wire Line
+	5900 2150 6160 2150
+Wire Wire Line
+	6030 2150 6030 2000
+Connection ~ 6030 2150
+$Comp
+L GND #PWR03
+U 1 1 579C20DE
+P 6030 2000
+F 0 "#PWR03" H 6030 1750 50  0001 C CNN
+F 1 "GND" H 6030 1850 50  0000 C CNN
+F 2 "" H 6030 2000 50  0000 C CNN
+F 3 "" H 6030 2000 50  0000 C CNN
+	1    6030 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 579C2634
+P 4400 2150
+F 0 "#PWR04" H 4400 1900 50  0001 C CNN
+F 1 "GND" H 4400 2000 50  0000 C CNN
+F 2 "" H 4400 2150 50  0000 C CNN
+F 3 "" H 4400 2150 50  0000 C CNN
+	1    4400 2150
+	-1   0    0    1   
+$EndComp
+Text Label 6030 2660 0    60   ~ 0
+VM+
+Text Label 4560 2730 0    60   ~ 0
+VCC
+Text Label 5960 3420 0    60   ~ 0
+O1
+Text Label 5980 3520 0    60   ~ 0
+O2
+$EndSCHEMATC
